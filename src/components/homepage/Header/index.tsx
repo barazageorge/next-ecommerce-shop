@@ -31,9 +31,7 @@ const Header = () => {
             transition={{ delay: 0.5, duration: 0.6 }}
             className="text-black/60 text-sm lg:text-base mb-6 lg:mb-8 max-w-[545px]"
           >
-            Browse through our diverse range of meticulously crafted garments,
-            designed to bring out your individuality and cater to your sense of
-            style.
+            Explore our carefully curated collection of garments, tailored to highlight your uniqueness and align with your personal style.
           </motion.p>
           <motion.div
             initial={{ y: "100px", opacity: 0 }}
