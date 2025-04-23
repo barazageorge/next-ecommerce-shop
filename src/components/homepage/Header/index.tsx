@@ -31,7 +31,7 @@ const Header = () => {
             transition={{ delay: 0.5, duration: 0.6 }}
             className="text-black/60 text-sm lg:text-base mb-6 lg:mb-8 max-w-[545px]"
           >
-            Explore our carefully curated collection of garments, tailored to highlight your uniqueness and align with your personal style.
+            Explore our carefully curated collection of garments, tailored to highlight your uniqueness and align with your personal             style.
           </motion.p>
           <motion.div
             initial={{ y: "100px", opacity: 0 }}
@@ -55,7 +55,7 @@ const Header = () => {
           >
             <div className="flex flex-col">
               <span className="font-bold text-2xl md:text-xl lg:text-3xl xl:text-[40px] xl:mb-2">
-                <AnimatedCounter from={0} to={200} />+
+                <AnimatedCounter from={0} to={150} />+
               </span>
               <span className="text-xs xl:text-base text-black/60 text-nowrap">
                 International Brands
@@ -67,7 +67,7 @@ const Header = () => {
             />
             <div className="flex flex-col ml-6 md:ml-0">
               <span className="font-bold text-2xl md:text-xl lg:text-3xl xl:text-[40px] xl:mb-2">
-                <AnimatedCounter from={0} to={2000} />+
+                <AnimatedCounter from={0} to={3000} />+
               </span>
               <span className="text-xs xl:text-base text-black/60 text-nowrap">
                 High-Quality Products
