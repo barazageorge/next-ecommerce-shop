@@ -11,7 +11,7 @@ export const newArrivalsData: Product[] = [
     id: 1,
     title: "T-shirt with Tape Details",
     srcUrl: "/images/pic1.png",
-    gallery: ["/images/pic1.png", "/images/pic10.png", "/images/pic11.png"],
+    gallery: ["/images/pic1.png", "/images/pic10.png", "/images/pic11.png", "/images/Pasted image (2).png", "/images/Pasted image (100).png", "/images/Pasted image (67).png"],
     price: 120,
     discount: {
       amount: 0,
@@ -24,8 +24,7 @@ export const newArrivalsData: Product[] = [
     title: "Skinny Fit Jeans",
     srcUrl: "/images/pic2.png",
     gallery: ["/images/pic2.png"],
-    price: 260,
-    discount: {
+    price: 260,    discount: {
       amount: 0,
       percentage: 20,
     },
