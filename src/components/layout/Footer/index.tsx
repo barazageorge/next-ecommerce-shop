@@ -103,21 +103,16 @@ const Footer = () => {
           <hr className="h-[1px] border-t-black/10 mb-6" />
           <div className="flex flex-col sm:flex-row justify-center sm:justify-between items-center mb-2">
             <p className="text-sm text-center sm:text-left text-black/60 mb-4 sm:mb-0 sm:mr-1">
-              Shop.co © Made by{" "}
+              Thamani Styles © Made by{" "}
               <Link
-                href="https://github.com/mohammadoftadeh"
+                href="https://github.com/barazageorge"
                 className="text-black font-medium"
               >
-                Mohammad Oftadeh
+                Baraza George
               </Link>
               {", "}
-              Designed by{" "}
-              <Link
-                href="https://www.figma.com/@hamzauix"
-                className="text-black font-medium"
-              >
-                Hamza Naeem
-              </Link>
+              
+              
             </p>
             <div className="flex items-center">
               {paymentBadgesData.map((badge, _, arr) => (

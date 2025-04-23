@@ -10,6 +10,7 @@ export type MenuItem = {
         description?: string | React.ReactNode;
       })[]
     | [];
+    
 };
 
 export type MenuListData = (Omit<MenuItem, "children" | "type"> & {
