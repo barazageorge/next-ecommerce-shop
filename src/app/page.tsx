@@ -11,7 +11,15 @@ export const newArrivalsData: Product[] = [
     id: 1,
     title: "T-shirt with Tape Details",
     srcUrl: "/images/pic1.png",
-    gallery: ["/images/pic1.png", "/images/pic10.png", "/images/pic11.png", "/images/Pasted image (2).png", "/images/Pasted image (100).png", "/images/Pasted image (67).png"],
+    gallery: [
+      "/images/pic1.png",
+      "/images/pic10.png",
+      "/images/pic11.png",
+      "/images/Pasted image (2).png",
+      "/images/Pasted image (100).png",
+      "/images/Pasted image (67).png",
+      "/images/Pasted image (7).png",
+    ],
     price: 120,
     discount: {
       amount: 0,
@@ -24,7 +32,8 @@ export const newArrivalsData: Product[] = [
     title: "Skinny Fit Jeans",
     srcUrl: "/images/pic2.png",
     gallery: ["/images/pic2.png"],
-    price: 260,    discount: {
+    price: 260,
+    discount: {
       amount: 0,
       percentage: 20,
     },
@@ -48,6 +57,23 @@ export const newArrivalsData: Product[] = [
     srcUrl: "/images/pic4.png",
     gallery: ["/images/pic4.png", "/images/pic10.png", "/images/pic11.png"],
     price: 160,
+    discount: {
+      amount: 0,
+      percentage: 30,
+    },
+    rating: 4.5,
+  },
+  // New Product Added to New Arrivals
+  {
+    id: 16,
+    title: "RIB FLIPPY SHORT",
+    srcUrl: "/images/Pasted image (109).png",
+    gallery: [
+      "/images/Pasted image (110).png",
+      "/images/Pasted image (111).png",
+      "/images/Pasted image (112).png",
+    ],
+    price: 170,
     discount: {
       amount: 0,
       percentage: 30,
