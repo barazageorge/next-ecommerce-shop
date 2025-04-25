@@ -11,15 +11,7 @@ export const newArrivalsData: Product[] = [
     id: 1,
     title: "T-shirt with Tape Details",
     srcUrl: "/images/pic1.png",
-    gallery: [
-      "/images/pic1.png",
-      "/images/pic10.png",
-      "/images/pic11.png",
-      "/images/Pasted image (2).png",
-      "/images/Pasted image (100).png",
-      "/images/Pasted image (67).png",
-      "/images/Pasted image (7).png",
-    ],
+    gallery: ["/images/pic1.png", "/images/pic10.png", "/images/pic11.png"],
     price: 120,
     discount: {
       amount: 0,
@@ -27,13 +19,55 @@ export const newArrivalsData: Product[] = [
     },
     rating: 4.5,
   },
+
+  {
+    id: 16,
+    title: "Rib Flippy Shorts",
+    srcUrl: "/images/Pasted image (109).png",
+    gallery: ["/images/Pasted image (109).png", "/images/Pasted image (110).png", "/images/Pasted image (111).png", "/images/Pasted image (112).png"],
+    price: 200,
+    discount: {
+      amount: 0,
+      percentage: 0,
+    },
+    rating: 5.0,
+  },
+
+
+  {
+    id: 17,
+    title: "Broderie Bardot Structured Skater Dress",
+    srcUrl: "/images/Pasted image (33).png",
+    gallery: ["/images/Pasted image (34).png", "/images/Pasted image (35).png", "/images/Pasted image (33).png"],
+    price: 180,
+    discount: {
+      amount: 0,
+      percentage: 0,
+    },
+    rating: 4.5,
+  },
+
+  {
+    id: 18,
+    title: "Booty Shorts",
+    srcUrl: "/images/Pasted image (115).png",
+    gallery: ["/images/Pasted image (115).png", "/images/Pasted image (116).png", "/images/Pasted image (117).png", "/images/Pasted image (118).png"],
+    price: 100,
+    discount: {
+      amount: 0,
+      percentage: 0,
+    },
+    rating: 4.5,
+  },
+
+
+
   {
     id: 2,
     title: "Skinny Fit Jeans",
     srcUrl: "/images/pic2.png",
     gallery: ["/images/pic2.png"],
-    price: 260,
-    discount: {
+    price: 260,    discount: {
       amount: 0,
       percentage: 20,
     },
@@ -63,26 +97,7 @@ export const newArrivalsData: Product[] = [
     },
     rating: 4.5,
   },
-  // New Product Added to New Arrivals
-  {
-    id: 16,
-    title: "RIB FLIPPY SHORT",
-    srcUrl: "/images/Pasted image (109).png",
-    gallery: [
-      "/images/Pasted image (110).png",
-      "/images/Pasted image (111).png",
-      "/images/Pasted image (112).png",
-    ],
-    price: 170,
-    discount: {
-      amount: 0,
-      percentage: 30,
-    },
-    rating: 4.5,
-  },
-];
 
-export const topSellingData: Product[] = [
   {
     id: 5,
     title: "Vertical Striped Shirt",
@@ -95,6 +110,60 @@ export const topSellingData: Product[] = [
     },
     rating: 5.0,
   },
+
+  {
+    id: 6,
+    title: "Courage Graphic T-shirt",
+    srcUrl: "/images/pic6.png",
+    gallery: ["/images/pic6.png", "/images/pic10.png", "/images/pic11.png"],
+    price: 145,
+    discount: {
+      amount: 0,
+      percentage: 0,
+    },
+    rating: 4.0,
+  },
+];
+
+export const topSellingData: Product[] = [
+ // New Product Added to New Arrivals
+  {
+    id: 1,
+    title: "T-shirt with Tape Details",
+    srcUrl: "/images/pic1.png",
+    gallery: ["/images/pic1.png", "/images/pic10.png", "/images/pic11.png"],
+    price: 120,
+    discount: {
+      amount: 0,
+      percentage: 0,
+    },
+    rating: 4.5,
+  },
+  {
+    id: 2,
+    title: "Skinny Fit Jeans",
+    srcUrl: "/images/pic2.png",
+    gallery: ["/images/pic2.png"],
+    price: 260,
+    discount: {
+      amount: 0,
+      percentage: 20,
+    },
+    rating: 3.5,
+  },
+
+{
+  id: 5,
+  title: "Vertical Striped Shirt",
+  srcUrl: "/images/pic5.png",
+  gallery: ["/images/pic5.png", "/images/pic10.png", "/images/pic11.png"],
+  price: 232,
+  discount: {
+    amount: 0,
+    percentage: 20,
+  },
+  rating: 5.0,
+},
   {
     id: 6,
     title: "Courage Graphic T-shirt",
@@ -131,9 +200,12 @@ export const topSellingData: Product[] = [
     },
     rating: 4.5,
   },
+ 
+
 ];
 
 export const relatedProductData: Product[] = [
+
   {
     id: 12,
     title: "Polo with Contrast Trims",
@@ -182,11 +254,13 @@ export const relatedProductData: Product[] = [
     },
     rating: 5.0,
   },
+
 ];
 
 export const reviewsData: Review[] = [
   {
-    id: 1,
+    
+id: 1,
     user: "Alex K.",
     content:
       '"Finding clothes that align with my personal style used to be a challenge until I discovered Shop.co. The range of options they offer is truly remarkable, catering to a variety of tastes and occasions.”',
