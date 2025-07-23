@@ -28,6 +28,11 @@ const categoriesData: Category[] = [
     title: "Jeans",
     slug: "/shop?category=jeans",
   },
+
+  {
+    title: "Lingeries",
+    slug: "/shop?category=lingeries",
+  },
 ];
 
 const CategoriesSection = () => {

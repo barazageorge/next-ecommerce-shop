@@ -30,6 +30,14 @@ const dressStylesData: DressStyle[] = [
     title: "Gym",
     slug: "/shop?style=gym",
   },
+  {
+    title: "Modest Clothing",
+    slug: "/shop?style=modestclothing",
+  },
+  {
+    title: "Graduation Dresses",
+    slug: "/shop?style=graduation",
+  },
 ];
 
 const DressStyleSection = () => {
