@@ -9,13 +9,13 @@ import {
   BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb";
 import Link from "next/link";
-import { useRouter } from "next/router";
+import { usePathname } from "next/navigation";
 
 const BreadcrumbCart = () => {
-  const router = useRouter();
+  const pathname = usePathname();
   const breadcrumbs = [
     { name: "Home", href: "/" },
-    { name: "Cart", href: router.pathname },
+    { name: "Cart", href: pathname },
   ];
 
   return (
