@@ -37,6 +37,7 @@ const DressStyle = () => {
             url="/shop#formal"
             className="md:max-w-[684px] h-[190px] bg-[url('/images/dress-style-2.png')]"
           />
+
         </motion.div>
         <motion.div
           initial={{ y: "100px", opacity: 0 }}
@@ -45,11 +46,7 @@ const DressStyle = () => {
           transition={{ delay: 1, duration: 0.6 }}
           className="flex flex-col sm:flex-row md:h-[289px] space-y-5 sm:space-y-0 sm:space-x-5"
         >
-          <DressStyleCard
-            title="Party"
-            url="/shop#party"
-            className="md:max-w-[684px] h-[190px] bg-[url('/images/dress-style-3.png')]"
-          />
+          
           <DressStyleCard
             title="Gym"
             url="/shop#gym"
